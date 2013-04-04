@@ -11,6 +11,6 @@ function Update () {
 function beingHoveredOver(){
 if (GameObject.FindWithTag("activePiece")!=null){
 //Debug.Log(GameObject);
-GameObject.FindWithTag("activePiece").transform.position=transform.position+transform.up*.2;
+GameObject.FindWithTag("activePiece").transform.position=transform.position+transform.up*.4;
 }
 }
